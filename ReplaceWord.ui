@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReplaceWord</class>
+ <widget class="QWidget" name="ReplaceWord">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>343</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ReplaceWord</string>
+  </property>
+  <widget class="QTextEdit" name="FromText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QWidget
+{
+background-color: #814582;
+	background :rgba(0,0,0,0.8);
+	
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+color: #fff;
+
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Replace">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>160</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+
+	background-color: #B9A7BB;
+background :rgba(0,0,10,200);
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	border-radius: 8px;
+	padding: 5px;
+
+
+}
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 207, 179, 255),stop:1 rgba(70, 255, 230, 255));
+
+}
+QPushButton::hover
+{
+	background-color: #6d286e;
+ 
+}</string>
+   </property>
+   <property name="text">
+    <string>Replace</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="ToText">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>40</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QWidget
+{
+background-color: #814582;
+	background :rgba(0,0,0,0.8);
+	
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+color: #fff;
+
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>250</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QWidget
+{
+background-color: #814582;
+	background :rgba(0,0,0,0.8);
+	
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+color: #fff;
+
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="To">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>40</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QWidget
+{
+
+
+color : #fff
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>561</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget
+{
+	background-color: 
+#B9A7BB
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Desktop/New folder/wp2466502.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="To_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QWidget
+{
+
+
+color : #fff
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>From</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="To_3">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>340</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QWidget
+{
+
+
+color : #fff
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="To_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>250</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QWidget
+{
+
+
+color : #fff
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Status</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>Replace</zorder>
+  <zorder>FromText</zorder>
+  <zorder>ToText</zorder>
+  <zorder>textBrowser</zorder>
+  <zorder>To</zorder>
+  <zorder>To_2</zorder>
+  <zorder>To_3</zorder>
+  <zorder>To_4</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
